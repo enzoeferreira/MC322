@@ -1,4 +1,4 @@
-public class Monstro{
+public class Item {
     /**
      *  ATRIBUTOS
      */ 
