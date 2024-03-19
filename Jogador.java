@@ -10,7 +10,11 @@ public class Jogador{
     private String itemMaoEsquerda;
     private String itemPe;
 
-    // getters e setters
+    /**
+     * MÉTODOS
+     */
+    
+    // getters
     public String getNome() {
         return nome;
     }
@@ -41,5 +45,38 @@ public class Jogador{
 
     public String getItemMaoEsquerda() {
         return itemMaoEsquerda;
+    }
+
+    // setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
+    public void setRaça(String raça) {
+        this.raça = raça;
+    }
+
+    public void setClasse(String classe) {
+        this.classe = classe;
+    }
+
+    public void setItemCabeça(String itemCabeça) {
+        this.itemCabeça = itemCabeça;
+    }
+
+    public void setItemCorpo(String itemCorpo) {
+        this.itemCorpo = itemCorpo;
+    }
+
+    public void setItemMaoDireita(String itemMaoDireita) {
+        this.itemMaoDireita = itemMaoDireita;
+    }
+
+    public void setItemMaoEsquerda(String itemMaoEsquerda) {
+        this.itemMaoEsquerda = itemMaoEsquerda;
     }
 }
