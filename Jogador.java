@@ -1,9 +1,12 @@
 public class Jogador{
-    // Atributos
+    /**
+     *  ATRIBUTOS
+     */ 
     private String nome;
     private int nivel;
     private String raça;
     private String classe;
+    
     private String itemCabeça;
     private String itemCorpo;
     private String itemMaoDireita;
