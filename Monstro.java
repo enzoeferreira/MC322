@@ -44,4 +44,9 @@ public class Monstro {
     public void setNiveisPerdidos(int niveisPerdidos) {
         this.niveisPerdidos = niveisPerdidos;
     }
+
+    // Métodos
+    public void toString() {
+        // Visualizar classe instanciada e seus atributos
+    }
 }
