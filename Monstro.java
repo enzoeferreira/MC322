@@ -45,4 +45,9 @@ public class Monstro{
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    // Métodos
+    public void toString() {
+        // Visualizar classe instanciada e seus atributos
+    }
 }
