@@ -79,4 +79,13 @@ public class Jogador{
     public void setItemMaoEsquerda(String itemMaoEsquerda) {
         this.itemMaoEsquerda = itemMaoEsquerda;
     }
+
+    // Métodos
+    public void toString() {
+        // Visualizar classe instanciada e seus atributos
+    }
+
+    public boolean possuiMaoVazia() {
+        // Validar se o jogador possui alguma mão sem item equipado
+    }
 }
