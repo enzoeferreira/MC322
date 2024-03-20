@@ -19,7 +19,14 @@ public class Jogador{
      * MÉTODOS
      */
 
-    // Construtor básico
+    /**
+     * Contrutor básico de objeto de Jogador
+     * 
+     * @param nome      Nome do jogador
+     * @param nivel     Nível do jogador
+     * @param raça      Raça do jogador
+     * @param classe    Classe do jogador
+     */
     public Jogador(String nome, int nivel, String raça, String classe) {
         this.nome = nome;
         this.nivel = nivel;
@@ -27,7 +34,20 @@ public class Jogador{
         this.classe = classe;
     }
 
-    // Construtor completo
+    /**
+     * Construtor completo de objeto de Jogador
+     * 
+     * @param nome      Nome do jogador
+     * @param nivel     Nível do jogador
+     * @param raça      Raça do jogador
+     * @param classe    Classe do jogador
+     * 
+     * @param itemCabeça        Item equipado na cabeça
+     * @param itemCorpo         Item equipado no corpo
+     * @param itemMaoDireita    Item equipado na mão direita
+     * @param itemMaoEsquerda   Item equipado na mão esquerda
+     * @param itemPe            Item equipado no pé
+     */
     public Jogador(String nome, int nivel, String raça, String classe,
                    String itemCabeça, String itemCorpo,
                    String itemMaoDireita, String itemMaoEsquerda, String itemPe) {
