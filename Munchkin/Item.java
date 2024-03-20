@@ -1,3 +1,5 @@
+package Munchkin;
+
 public class Item {
     /**
      *  ATRIBUTOS
