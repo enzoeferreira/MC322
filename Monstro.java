@@ -46,7 +46,8 @@ public class Monstro {
     }
 
     // Métodos
-    public void toString() {
+    public String toString() {
         // Visualizar classe instanciada e seus atributos
+        return "Monstro: " + nome;
     }
 }
