@@ -50,6 +50,10 @@ public class Jogador{
         return itemMaoEsquerda;
     }
 
+    public String getItemPe() {
+        return itemPe;
+    }
+
     // setters
     public void setNome(String nome) {
         this.nome = nome;
@@ -83,12 +87,18 @@ public class Jogador{
         this.itemMaoEsquerda = itemMaoEsquerda;
     }
 
+    public void setItemPe(String itemPe) {
+        this.itemPe = itemPe;
+    }
+
     // Métodos
     public void toString() {
         // Visualizar classe instanciada e seus atributos
+        System.out.println("String");
     }
 
     public boolean possuiMaoVazia() {
         // Validar se o jogador possui alguma mão sem item equipado
+        return false;
     }
 }
