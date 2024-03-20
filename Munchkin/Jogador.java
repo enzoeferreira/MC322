@@ -20,10 +20,27 @@ public class Jogador{
      */
 
     // Construtor básico
-    public Jogador(String nome, String raça, String classe) {
+    public Jogador(String nome, int nivel, String raça, String classe) {
         this.nome = nome;
+        this.nivel = nivel;
         this.raça = raça;
         this.classe = classe;
+    }
+
+    // Construtor completo
+    public Jogador(String nome, int nivel, String raça, String classe,
+                   String itemCabeça, String itemCorpo,
+                   String itemMaoDireita, String itemMaoEsquerda, String itemPe) {
+        this.nome = nome;
+        this.nivel = nivel;
+        this.raça = raça;
+        this.classe = classe;
+
+        this.itemCabeça = itemCabeça;
+        this.itemCorpo = itemCorpo;
+        this.itemMaoDireita = itemMaoDireita;
+        this.itemMaoEsquerda = itemMaoEsquerda;
+        this.itemPe = itemPe;
     }
     
     // getters
