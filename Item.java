@@ -47,7 +47,8 @@ public class Item {
     }
 
     // Métodos
-    public void toString() {
+    public String toString() {
         // Visualizar classe instanciada e seus atributos
+        return "Item: " + nome;
     }
 }
