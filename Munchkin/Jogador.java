@@ -140,7 +140,23 @@ public class Jogador{
     // Métodos
     public String toString() {
         // Visualizar classe instanciada e seus atributos
-        return "Jogador: " + nome;
+        String output = String.format("""
+                                      ============================
+                                      Jogador: %s (LVL: %d) - %s
+                                      ============================
+                                      """, nome, nivel, classe);
+        output += "Item Cabeça: ";
+        output += (itemCabeça == null) ? "Nenhum\n" : itemCabeça + "\n";
+        output += "Item Corpo: ";
+        output += (itemCorpo == null) ? "Nenhum\n" : itemCorpo + "\n";
+        output += "Item Mão Direita: ";
+        output += (itemMaoDireita == null) ? "Nenhum\n" : itemMaoDireita + "\n";
+        output += "Item Mão Esquerda: ";
+        output += (itemMaoEsquerda == null) ? "Nenhum\n" : itemMaoEsquerda + "\n";
+        output += "Item Pé: ";
+        output += (itemPe == null) ? "Nenhum\n" : itemPe + "\n";
+
+        return output;
     }
 
     public boolean possuiMaoVazia() {
