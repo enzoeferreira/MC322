@@ -18,6 +18,13 @@ public class Jogador{
     /**
      * MÉTODOS
      */
+
+    // Construtor básico
+    public Jogador(String nome, String raça, String classe) {
+        this.nome = nome;
+        this.raça = raça;
+        this.classe = classe;
+    }
     
     // getters
     public String getNome() {
