@@ -92,9 +92,9 @@ public class Jogador{
     }
 
     // Métodos
-    public void toString() {
+    public String toString() {
         // Visualizar classe instanciada e seus atributos
-        System.out.println("String");
+        return "Jogador: " + nome;
     }
 
     public boolean possuiMaoVazia() {
