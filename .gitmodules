@@ -1,3 +1,15 @@
 [submodule "laboratorio-2-enzoeferreira"]
 	path = laboratorio-2-enzoeferreira
 	url = https://github.com/Marcos-M-Raimundo/laboratorio-2-enzoeferreira
+[submodule "laboratorio-1-enzoeferreira"]
+	path = laboratorio-1-enzoeferreira
+	url = https://github.com/Marcos-M-Raimundo/laboratorio-1-enzoeferreira
+[submodule "laboratorio-3-enzoeferreira"]
+	path = laboratorio-3-enzoeferreira
+	url = https://github.com/Marcos-M-Raimundo/laboratorio-3-enzoeferreira
+[submodule "laboratorio-4-enzoeferreira"]
+	path = laboratorio-4-enzoeferreira
+	url = https://github.com/Marcos-M-Raimundo/laboratorio-4-enzoeferreira
+[submodule "laboratorio-5-enzoeferreira"]
+	path = laboratorio-5-enzoeferreira
+	url = https://github.com/Marcos-M-Raimundo/laboratorio-5-enzoeferreira
